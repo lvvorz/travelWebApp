@@ -1,0 +1,26 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        {{each imgs}}
+        <div class="swiper-slide">
+            <a href="javascript:;">
+                <img src="{{$value.url}}" alt="" class="swiper-img">
+            </a>
+        </div>
+        {{/each}}
+    </div>
+    {{if pagination && pagination.el}}
+    <div class="swiper-pagination"></div>
+    {{/if}}
+
+    {{if navigation && navigation.prevEL}}
+    <div class="swiper-button-prev"></div>
+    {{/if}}
+
+    {{if navigation && navigation.nextEL}}
+    <div class="swiper-button-next"></div>
+    {{/if}}
+
+    {{if scrollbar && scrollbar.el}}
+    <div class="swiper-scrollbar"></div>
+    {{/if}}
+</div>

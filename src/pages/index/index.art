@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="index-page" class="index-layout">
+
+        <header class="header-layout">
+            {{include './components/header/index.art'}}
+        </header>
+
+        <div id="index-slider" class="slider-layout">
+            {{include '../../components/loading/loading.art'}}
+        </div>
+
+        <nav id="index-nav" class="nav-layout">
+            {{include '../../components/loading/loading.art'}}
+        </nav>
+
+        <div id="index-product" class="product-layout">
+            精选折扣
+        </div>
+
+        <div class="tabbar-layout">
+            标签栏
+        </div>
+
+        <div id="backtop-layout">
+
+        </div>
+    </div>
+</body>
+
+</html>

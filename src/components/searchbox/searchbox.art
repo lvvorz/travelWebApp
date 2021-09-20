@@ -1,0 +1,7 @@
+<div class="searchbox">
+    <i class="iconfont icon-search"></i>
+    <form class="searchbox-form">
+        <input type="text" name="words" class="search-input" autocomplete="off"
+            placeholder="{{placeholder?placeholder:'搜索目的地'}}">
+    </form>
+</div>
