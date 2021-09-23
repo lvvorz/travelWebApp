@@ -24,7 +24,7 @@
         </nav>
 
         <div id="index-product" class="product-layout">
-            精选折扣
+            {{include './components/product/product.art'}}
         </div>
 
         <div class="tabbar-layout">

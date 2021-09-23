@@ -1,0 +1,14 @@
+{{each items}}
+<li class="product-item">
+    <!-- <a href="./details.htmls?id={{$value.id}}"> -->
+    <a href="javascript:;">
+        <div class="product-title">
+            <img src="{{$value.url}}" alt="" class="product-img">
+        </div>
+        <p class="product-name">
+            {{$value.title}}
+        </p>
+        <p class="product-price">{{$value.price}}元起</p>
+    </a>
+</li>
+{{/each}}

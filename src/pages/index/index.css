@@ -1,6 +1,7 @@
 .index-layout {
     overflow-y: auto;
     height: 100%;
+    padding-bottom: 48px;
 }
 .header-layout {
     position: fixed;
@@ -19,7 +20,8 @@
     background-color: #fff;
 }
 .slider-layout .loading,
-.nav-layout .loading {
+.nav-layout .loading,
+.product-layout .loading {
     padding: 60px 0;
 }
 .nav-layout {
