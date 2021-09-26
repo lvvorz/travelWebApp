@@ -28,11 +28,12 @@
         </div>
 
         <div class="tabbar-layout">
-            标签栏
+            <!-- 这里传入的是index -->
+            <% include('../../components/tabbar/tabbar.art',{active:'index'})%>
         </div>
 
-        <div id="backtop-layout">
-
+        <div class="backtop-layout">
+            {{include '../../components/backtop/backtop.art'}}
         </div>
     </div>
 </body>
