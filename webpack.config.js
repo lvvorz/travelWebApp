@@ -9,7 +9,7 @@ module.exports = {
   // Webpack 入口文件
   entry: {
     index: './src/pages/index',
-    // destination: './src/pages/destination'
+    destination: './src/pages/destination'
   },
   // Webpack 输出路径
   output: {
@@ -76,10 +76,10 @@ module.exports = {
       template: './src/pages/index/index.art',
       chunks: ['index']
     }),
-    // new HtmlWebpackPlugin({
-    //   filename: 'destination.html',
-    //   template: './src/pages/destination/destination.art',
-    //   chunks: ['destination']
-    // })
+    new HtmlWebpackPlugin({
+      filename: 'destination.html',
+      template: './src/pages/destination/destination.art',
+      chunks: ['destination']
+    })
   ]
 };

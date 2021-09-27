@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,24 +11,28 @@
 <body>
     <div id="destination-page" class="destination-layout">
         <!-- head -->
-        <!-- <header class="header-layout"></header> -->
+        <header class="header-layout">
+            {{include './components/header/header.art'}}
+        </header>
 
         <!-- main -->
-        <!-- <div class="main-layout"></div> -->
+        <div class="main-layout">
+            {{include './components/main/main.art'}}
+        </div>
 
         <!-- tabbar -->
-        <!-- <div class="tabbar-layout">
+        <div class="tabbar-layout">
             <% include("../../components/tabbar/tabbar.art", {
                 active: 'destination'
             }) %>
-        </div> -->
+        </div>
 
         <!-- backtop -->
-        <!-- <div class="backtop-layout">
+        <div class="backtop-layout">
             {{include '../../components/backtop/backtop.art'}}
-        </div> -->
+        </div>
 
-    <!-- </div>
+    </div>
 </body>
 
-</html> -->
+</html>

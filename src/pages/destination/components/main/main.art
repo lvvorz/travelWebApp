@@ -1,0 +1,6 @@
+<div class="tab-layout">{{include '../tab/tab.art'}}</div>
+
+<div id="destination-content" class="content-layout">
+    <!-- {{include '../../../../components/loading/loading.art'}} -->
+    {{include '../content/content.art'}}
+</div>
