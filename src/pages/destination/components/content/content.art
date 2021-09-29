@@ -1,40 +1,10 @@
 <ul class="content">
+    {{each contents}}
     <li class="content-item">
         <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
+            <img src="{{$value.url}}" class="content-img" alt="">
+            <span class="content-text">{{$value.text}}</span>
         </a>
     </li>
-    <li class="content-item">
-        <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
-        </a>
-    </li>
-    <li class="content-item">
-        <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
-        </a>
-    </li>
-    <li class="content-item">
-        <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
-        </a>
-    </li>
-    <li class="content-item">
-        <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
-        </a>
-    </li>
-    <li class="content-item">
-        <a href="javascript:;">
-            <img src="./content_1.png" class="content-img" alt="">
-            <span class="content-text">中国</span>
-        </a>
-    </li>
-    
-    
+    {{/each}}
 </ul>
