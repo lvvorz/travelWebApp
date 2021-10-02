@@ -9,7 +9,8 @@ module.exports = {
   // Webpack 入口文件
   entry: {
     index: './src/pages/index',
-    destination: './src/pages/destination'
+    destination: './src/pages/destination',
+    personal: './src/pages/personal'
   },
   // Webpack 输出路径
   output: {
@@ -80,6 +81,11 @@ module.exports = {
       filename: 'destination.html',
       template: './src/pages/destination/destination.art',
       chunks: ['destination']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'personal.html',
+      template: './src/pages/personal/personal.art',
+      chunks: ['personal']
     })
   ]
 };

@@ -1,0 +1,24 @@
+.main {
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.main-item {
+    position: relative;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.main-item a {
+    color: #262626;
+}
+.main-item .iconfont {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+}

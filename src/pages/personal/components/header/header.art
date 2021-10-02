@@ -1,0 +1,8 @@
+<div class="header-bg"></div>
+<div class="header-logo">
+    <img src="./images/portrait.jpg" alt="" class="header-logo-img">
+</div>
+<div class="header-info">
+    <div class="header-info-name">黄小明</div>
+    <div class="header-info-number">15277148146</div>
+</div>
