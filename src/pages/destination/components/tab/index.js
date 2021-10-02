@@ -15,8 +15,14 @@ class Tab{
     }
 
     to(index) {
+        // 取消上一次请求
+    if(this.dataPromise && this.dataPromise.xhr) {
+        this.dataPromise.xhr.abort();
+    }
         this.setActiveItem(index);
-        return getData(`${URL}/${this.itemList[index].dataset.id}`);
+        this.dataPromise = getData(`${URL}/${this.itemList[index].dataset.id}`);
+        
+        return this.dataPromise;
     }
     
 }

@@ -6,7 +6,7 @@
     height: 100%;
     padding-top: 57px;
     background: url(./header_bg.png) no-repeat;
-    background: cover;
+    background-size: cover;
 }
 
 .header-title {
